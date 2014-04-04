@@ -397,7 +397,7 @@ define('SIMPLEPIE_FILE_SOURCE_FSOCKOPEN', 4);
  */
 define('SIMPLEPIE_FILE_SOURCE_CURL', 8);
 
-·/**
+/**
  * cURL proxy options
  */
 define('SIMPLEPIE_FILE_PROXY_HOST', null);
