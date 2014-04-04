@@ -109,7 +109,7 @@ class SimplePie_File
 				curl_setopt($fp, CURLOPT_HTTPHEADER, $headers2);
 				if (SIMPLEPIE_FILE_PROXY_HOST != null)
 				{
-					curl_setopt($fp, CURLOPT_PROXY, SIMPLEPIE_FILE_PROXY_PORT);
+					curl_setopt($fp, CURLOPT_PROXY, SIMPLEPIE_FILE_PROXY_HOST);
 					if ($proxyport != null) {
 						curl_setopt($fp, CURLOPT_PROXYPORT, SIMPLEPIE_FILE_PROXY_PORT);
 					}
